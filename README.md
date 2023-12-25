@@ -2,10 +2,16 @@ Banning known ip addresses of Minecraft bots from scanning your server. Uses Deb
 
 ```
 apt install ipset ipset-persistent
+
 ipset create blacklist hash:ip
+
 iptables -I INPUT -m set --match-set blacklist src -j DROP
 iptables -I FORWARD -m set --match-set blacklist src -j DROP
+
+ipset restore -! < /path/to/the/list/you/got/from/here/ipset-blacklist
 ```
+
+To add addresses yourself:
 
 Modify ~/.bashrc:
 ```
