@@ -2,7 +2,9 @@ create blacklist hash:ip family inet hashsize 1024 maxelem 65536
 add blacklist 198.54.135.57
 add blacklist 146.70.168.179
 add blacklist 146.70.211.179
+add blacklist 149.40.50.122
 add blacklist 169.150.198.89
+add blacklist 146.70.211.115
 add blacklist 146.70.188.180
 add blacklist 194.114.136.109
 add blacklist 198.54.134.153
@@ -14,6 +16,7 @@ add blacklist 104.129.24.104
 add blacklist 185.254.75.42
 add blacklist 178.249.214.25
 add blacklist 68.235.43.185
+add blacklist 185.156.46.166
 add blacklist 104.223.91.24
 add blacklist 45.134.142.199
 add blacklist 103.108.231.60
@@ -49,6 +52,7 @@ add blacklist 198.54.132.153
 add blacklist 103.125.233.10
 add blacklist 198.44.128.153
 add blacklist 198.54.135.153
+add blacklist 138.199.6.204
 add blacklist 146.70.225.92
 add blacklist 37.19.221.175
 add blacklist 146.70.201.28
@@ -61,10 +65,13 @@ add blacklist 103.108.229.76
 add blacklist 146.70.132.217
 add blacklist 138.199.21.236
 add blacklist 185.248.85.15
+add blacklist 185.156.46.153
 add blacklist 37.19.221.162
 add blacklist 146.70.124.217
 add blacklist 103.216.220.24
+add blacklist 46.19.136.249
 add blacklist 169.150.196.21
+add blacklist 149.102.240.89
 add blacklist 103.136.147.157
 add blacklist 194.114.136.78
 add blacklist 194.114.136.90
@@ -74,13 +81,17 @@ add blacklist 146.70.141.243
 add blacklist 146.70.166.243
 add blacklist 146.70.116.121
 add blacklist 146.70.225.51
+add blacklist 149.88.22.165
 add blacklist 103.136.147.183
 add blacklist 146.70.199.220
+add blacklist 146.70.225.115
 add blacklist 146.70.133.121
 add blacklist 68.235.44.89
+add blacklist 146.70.193.115
 add blacklist 138.199.60.34
 add blacklist 198.54.132.143
 add blacklist 185.254.75.53
+add blacklist 146.70.171.179
 add blacklist 178.249.209.185
 add blacklist 146.70.134.57
 add blacklist 68.235.43.143
@@ -89,7 +100,11 @@ add blacklist 146.70.197.156
 add blacklist 43.225.189.173
 add blacklist 146.70.187.51
 add blacklist 146.70.128.217
+add blacklist 138.199.60.25
 add blacklist 178.249.211.85
+add blacklist 198.54.132.121
+add blacklist 169.150.196.38
+add blacklist 103.125.233.15
 add blacklist 146.70.116.185
 add blacklist 146.70.129.143
 add blacklist 146.70.107.207
@@ -102,10 +117,12 @@ add blacklist 169.150.201.8
 add blacklist 138.199.21.249
 add blacklist 66.63.167.124
 add blacklist 146.70.116.175
+add blacklist 66.63.167.243
 add blacklist 23.162.40.62
 add blacklist 103.216.220.40
 add blacklist 138.199.6.243
 add blacklist 194.36.25.15
+add blacklist 146.70.198.179
 add blacklist 146.70.224.28
 add blacklist 103.136.147.116
 add blacklist 138.199.21.232
@@ -115,6 +132,7 @@ add blacklist 92.60.40.221
 add blacklist 94.46.24.54
 add blacklist 92.60.40.201
 add blacklist 169.150.201.38
+add blacklist 146.70.198.243
 add blacklist 198.44.136.217
 add blacklist 146.70.165.28
 add blacklist 37.19.221.153
@@ -126,5 +144,6 @@ add blacklist 146.70.200.243
 add blacklist 146.70.189.92
 add blacklist 103.108.229.56
 add blacklist 169.150.196.25
+add blacklist 185.248.85.60
 add blacklist 103.108.231.72
 add blacklist 154.47.29.21
