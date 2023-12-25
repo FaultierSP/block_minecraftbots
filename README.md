@@ -10,17 +10,24 @@ iptables -I FORWARD -m set --match-set blacklist src -j DROP
 Modify ~/.bashrc:
 ```
 alias banip='ipset add blacklist -exist'
+```
+Then:
+```
 source ~/.bashrc
 ```
 
-Then:
+Then for every IP:
 ```
 banip <IP>
+```
 
+Save the list:
+```
 ipset save blacklist -f ipset-blacklist
 sudo ipset restore -! < ipset-blacklist
 ```
 
 Manuals:
 https://linux.die.net/man/8/ipset
+
 https://confluence.jaytaala.com/display/TKB/Using+ipset+to+block+IP+addresses+-+firewall
