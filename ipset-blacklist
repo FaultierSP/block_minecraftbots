@@ -186,3 +186,4 @@ add blacklist 185.248.85.60
 add blacklist 92.60.40.206
 add blacklist 103.108.231.72
 add blacklist 154.47.29.21
+add blacklist 154.213.192.15
